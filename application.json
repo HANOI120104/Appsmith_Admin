@@ -27,15 +27,27 @@
   "icon": "call",
   "pages": [
     {
-      "id": "Dashboard",
+      "id": "Đăng nhập",
       "isDefault": true
     },
     {
-      "id": "Authentication",
+      "id": "Trang chủ",
       "isDefault": false
     },
     {
-      "id": "Account",
+      "id": "Tài Khoản",
+      "isDefault": false
+    },
+    {
+      "id": "Quản lý nhân lực",
+      "isDefault": false
+    },
+    {
+      "id": "Quản lý vật phẩm",
+      "isDefault": false
+    },
+    {
+      "id": "Quản lý đơn yêu cầu cứu trợ",
       "isDefault": false
     }
   ],
