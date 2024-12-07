@@ -49,6 +49,10 @@
     {
       "id": "Quản lý đơn yêu cầu cứu trợ",
       "isDefault": false
+    },
+    {
+      "id": "Đăng xuất",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
