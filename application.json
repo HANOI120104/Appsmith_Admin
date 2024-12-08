@@ -53,6 +53,10 @@
     {
       "id": "Đăng xuất",
       "isDefault": false
+    },
+    {
+      "id": "Movies",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

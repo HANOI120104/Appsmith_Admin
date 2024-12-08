@@ -15,7 +15,7 @@
       "headers": [
         {
           "key": "Authorization",
-          "value": "Bearer {{appsmith.store.token}}"
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzU0YmUxZGFjNGEwNzgwMzllNTMzNTIiLCJ1c2VybmFtZSI6Imhhbm9pMTIzNDU2IiwianRpIjoiNjc1NGJlMWRhYzRhMDc4MDM5ZTUzMzUyLTE3MzM2ODc5MDY3MzUiLCJrZXkiOiJ0ZXN0MjAyNCIsImlhdCI6MTczMzY4NzkwNiwiZXhwIjoxNzMzODYwNzA2fQ.oCkawsDuIcRP9CDL7Z3N_whFSb-96J1e7HIsm6ZhAx4"
         }
       ],
       "httpMethod": "GET",
@@ -37,11 +37,7 @@
       "name": "Users",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "headers[0].value"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
     "name": "getUsers",
     "pageId": "Quản lý nhân lực",

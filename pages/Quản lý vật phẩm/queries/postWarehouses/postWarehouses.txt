@@ -1,0 +1,7 @@
+{
+  "name": "Bánh mì",
+  "quantity": 100,
+  "supportRequestTypeId": "1",
+  "supportRequestTypeName": "Vật tư",
+  "unit": "Cái"
+}
