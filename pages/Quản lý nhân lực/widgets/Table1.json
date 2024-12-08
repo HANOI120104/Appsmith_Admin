@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 82,
+  "bottomRow": 66,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -63,9 +63,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.address.computedValue"
     },
     {
@@ -103,6 +100,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -564,7 +564,7 @@
   "searchKey": "",
   "tableData": "{{getUsers.data}}",
   "textSize": "0.875rem",
-  "topRow": 7,
+  "topRow": 10,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
