@@ -1,41 +1,31 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
-  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "#231f20",
+  "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
     {
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "iconAlign": "left",
-  "iconName": "add",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "right",
+  "iconName": "notifications",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "ln9p2c9rz3",
+  "key": "hgcpjo4o7o",
   "leftColumn": 48,
   "minWidth": 120,
-  "mobileBottomRow": 6,
+  "mobileBottomRow": 4,
   "mobileLeftColumn": 48,
   "mobileRightColumn": 64,
-  "mobileTopRow": 2,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(mdl_createAccount.name);}}",
-  "originalBottomRow": 16,
-  "originalTopRow": 12,
   "parentColumnSpace": 19.375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -45,10 +35,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Tạo tài khoản mới",
-  "topRow": 5,
+  "text": "1 thông báo mới",
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "tkf7hhynoz",
-  "widgetName": "Button5"
+  "widgetId": "l9dqu55ehg",
+  "widgetName": "Button2"
 }
