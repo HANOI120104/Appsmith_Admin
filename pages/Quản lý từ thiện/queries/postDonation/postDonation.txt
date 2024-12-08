@@ -1,0 +1,18 @@
+{
+  "accountNumber": "string",
+  "amount": 0,
+  "bank": "string",
+  "city": "string",
+  "description": "string",
+  "detailAddress": "string",
+  "district": "string",
+  "email": "string",
+  "fullName": "string",
+  "paymentMethod": "CreditCard",
+  "phone": "string",
+  "status": "Pending",
+  "supportRequestTypeId": "string",
+  "supportRequestTypeName": "string",
+  "userId": "string",
+  "ward": "string"
+}

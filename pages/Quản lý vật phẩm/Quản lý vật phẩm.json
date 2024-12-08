@@ -1,12 +1,13 @@
 {
   "gitSyncId": "673f672562b6fd1870633c84_98b72f37-fd5a-4068-a18b-b23233abb778",
   "unpublishedPage": {
+    "customSlug": "warehouse",
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 780,
+          "bottomRow": 1210,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,

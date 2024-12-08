@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "673f672562b6fd1870633c84_48cd7999-b4a8-45f3-8a30-a7d243e99d94",
+  "gitSyncId": "673f672562b6fd1870633c84_09e940b2-f539-4a11-8301-32070e24aca4",
   "unpublishedPage": {
+    "customSlug": "donations",
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 880,
+          "bottomRow": 760,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 900,
+          "minHeight": 800,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1174,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 125,
+          "snapRows": 78,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Movies",
-    "slug": "movies"
+    "name": "Quản lý từ thiện",
+    "slug": "quan-ly-tu-thien"
   }
 }

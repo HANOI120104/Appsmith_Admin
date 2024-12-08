@@ -1,6 +1,6 @@
 {
   "gitSyncId": "673f672562b6fd1870633c84_b03dbacb-b488-40eb-b6d0-6f685b3e727b",
-  "id": "Quản lý đơn yêu cầu cứu trợ_Api2",
+  "id": "Quản lý đơn yêu cầu cứu trợ_getSupportRequest",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -39,7 +39,7 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Api2",
+    "name": "getSupportRequest",
     "pageId": "Quản lý đơn yêu cầu cứu trợ",
     "userSetOnLoad": false
   }

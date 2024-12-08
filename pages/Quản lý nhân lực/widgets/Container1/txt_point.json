@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 112,
+  "bottomRow": 43,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 15,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "originalBottomRow": 43,
-  "originalTopRow": 39,
+  "originalBottomRow": 112,
+  "originalTopRow": 93,
   "overflow": "NONE",
   "parentColumnSpace": 8.1640625,
   "parentId": "0j3lxsh7r3",
@@ -43,7 +43,7 @@
   "text": "Điểm: {point}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 93,
+  "topRow": 39,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -791,7 +791,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "tableData": "{{Api2.data}}",
+  "tableData": "{{getSupportRequest.data}}",
   "textSize": "0.875rem",
   "topRow": 21,
   "totalRecordsCount": 0,
