@@ -9,3 +9,5 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 ##### You can visit the application using the below link
 
 ###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/673f2ef87ebfa14afdaa2c40/pages/673f402ce4114378d1df2cec) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/673f2ef87ebfa14afdaa2c40/pages/673f402ce4114378d1df2cec/edit)
+## 📝 License
+This project is licensed under the  [Apache 2.0](./LICENSE) license.
