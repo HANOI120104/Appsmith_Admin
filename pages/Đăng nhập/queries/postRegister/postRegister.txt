@@ -1,0 +1,5 @@
+{
+	"username": {{inp_UsernameRegister.text}},
+	"password": {{inp_PasswordRegister.text}},
+	"roles" : "user"
+}

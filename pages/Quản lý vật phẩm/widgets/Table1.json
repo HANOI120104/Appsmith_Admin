@@ -62,9 +62,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.address.computedValue"
     },
     {
@@ -96,6 +93,9 @@
     },
     {
       "key": "primaryColumns.username.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -507,7 +507,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 39,
   "searchKey": "",
-  "tableData": "{{Api1.data}}",
+  "tableData": "{{Api2.data}}",
   "textSize": "0.875rem",
   "topRow": 10,
   "totalRecordsCount": 0,

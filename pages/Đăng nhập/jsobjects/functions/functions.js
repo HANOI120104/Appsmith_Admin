@@ -13,4 +13,11 @@ export default {
 	async onSuccess () {
 		storeValue('token',postLogin.data.accessToken)
 	},
+
+	async register() {
+		const Response = await postRegister.run();
+		if(Response){
+			functions.setDefaultTab('Login');
+		}
+	}
 }

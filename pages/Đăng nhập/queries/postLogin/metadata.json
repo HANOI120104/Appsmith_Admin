@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"username\": {{inp_username.text}},\n\t\"password\": {{inp_password.text}},\n}",
+      "body": "{\n\t\"username\": {{inp_username.text}},\n\t\"password\": {{inp_password.text}},\n\t\"roles\" : \"user\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
