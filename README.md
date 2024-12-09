@@ -39,7 +39,27 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ## 1. Cài đặt Appsmith 
 Dùng trên cloud: https://www.appsmith.com/
-HoẶC
+1. Mở Appsmith Workspace Homepage, sau đó nhấn vào nút Create New ở góc trên bên phải và chọn Import.
+
+2. Chọn tùy chọn image from a git repository từ menu image.
+
+3. Chọn GitHub làm Service Provider, sau đó nhấn vào Configure Git.
+
+4. Điều hướng đến repository's landing page, nhấn vào nút Code, và sao chép SSH URL.
+
+5. Dán URL vào phần Generate SSH Key trên Appsmith.
+
+6. Nhấn nút Generate SSH Keys, và các khóa ECDSA 256 hoặc RSA 4096 sẽ được hiển thị. Chọn loại khóa phù hợp với yêu cầu bảo mật và cấu trúc hệ thống của bạn.
+
+7. Sao chép một trong các khóa, sau đó điều hướng đến Repository Settings, vào phần Deploy Keys, nhấn Add Deploying Keys, dán khóa đã sao chép, và đặt một tiêu đề có ý nghĩa để sử dụng trong tương lai.
+
+8 .Đánh dấu chọn Allow Write Access, sau đó nhấn Add Key.
+
+9. Quay lại Appsmith, nhấn nút Connect Git.
+
+10. Sau khi hoàn tất quy trình image, bạn cần cấu hình lại datasource vì Appsmith doesn’t export any configuration values để kết nối một datasource. Bạn có thể làm điều này trong Reconnect Datasources Modal hoặc chọn cấu hình lại chúng.
+Xem video hướng dẫn (https://docs.appsmith.com/advanced-concepts/version-control-with-git/import-from-repository)
+## HOẶC
 Chạy trên Local: 
 ## Yêu cầu hệ thống
 Docker và Docker Compose
@@ -55,6 +75,8 @@ docker-compose up -d
 ```
 3. Truy cập Appsmith tại http://localhost.
 
+4. 
+Xem video trực tiếp: https://docs.appsmith.com/getting-started/setup/installation-guides/docker#install-appsmith
 
 # Đóng góp cho dự án
 
