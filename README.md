@@ -60,10 +60,13 @@ Dùng trên cloud: https://www.appsmith.com/
 10. Sau khi hoàn tất quy trình image, bạn cần cấu hình lại datasource vì Appsmith doesn’t export any configuration values để kết nối một datasource. Bạn có thể làm điều này trong Reconnect Datasources Modal hoặc chọn cấu hình lại chúng.
 Xem video hướng dẫn (https://docs.appsmith.com/advanced-concepts/version-control-with-git/import-from-repository)
 ## HOẶC
+
+
 Chạy trên Local: 
-## Yêu cầu hệ thống
-Docker và Docker Compose
-## Cài đặt
+### Yêu cầu hệ thống
+1. [Docker (version 20.10.7 or later)](https://docs.docker.com/get-started/get-docker/)
+2. [Docker-Compose (version 1.29.2 or later)](https://docs.docker.com/compose/install/)
+## Cài đặt 
 1. Clone repository Appsmith từ GitHub:
 ```bash
 git clone https://github.com/HANOI120104/Appsmith_Admin.git
