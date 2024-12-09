@@ -53,7 +53,7 @@ Dùng trên cloud: https://www.appsmith.com/
 
 7. Sao chép một trong các khóa, sau đó điều hướng đến Repository Settings, vào phần Deploy Keys, nhấn Add Deploying Keys, dán khóa đã sao chép, và đặt một tiêu đề có ý nghĩa để sử dụng trong tương lai.
 
-8 .Đánh dấu chọn Allow Write Access, sau đó nhấn Add Key.
+8. Đánh dấu chọn Allow Write Access, sau đó nhấn Add Key.
 
 9. Quay lại Appsmith, nhấn nút Connect Git.
 
