@@ -35,7 +35,28 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/673f2ef87ebfa14afdaa2c40/pages/673f402ce4114378d1df2cec) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/673f2ef87ebfa14afdaa2c40/pages/673f402ce4114378d1df2cec/edit)
 
-## Đóng góp cho dự án
+# Hướng dẫn sử dụng
+
+## 1. Cài đặt Appsmith 
+Dùng trên cloud: https://www.appsmith.com/
+HoẶC
+Chạy trên Local: 
+## Yêu cầu hệ thống
+Docker và Docker Compose
+## Cài đặt
+1. Clone repository Appsmith từ GitHub:
+```bash
+git clone https://github.com/HANOI120104/Appsmith_Admin.git
+cd Appsmith_Admin/deploy
+```
+2. Khời chạy Appsmith
+```bash
+docker-compose up -d
+```
+3. Truy cập Appsmith tại http://localhost.
+
+
+# Đóng góp cho dự án
 
 <a href="https://github.com/pmnm2024/smart_tlu/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
 </a>
