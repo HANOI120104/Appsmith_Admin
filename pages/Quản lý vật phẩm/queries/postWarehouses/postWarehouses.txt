@@ -1,7 +1,7 @@
 {
-  "name": "Bánh mì",
-  "quantity": 100,
-  "supportRequestTypeId": "1",
-  "supportRequestTypeName": "Vật tư",
-  "unit": "Cái"
+	"name": "{{inp_newNameSupply.text}}",
+	"quantity": "{{inp_newQuantity.text}}",
+	"supportRequestTypeId": "{{inp_supportRequestTypeId.text}}",
+	"supportRequestTypeName": "{{inp_supportRequestTypeId.text}}",
+	"unit": "{{inp_newUnit.text}}"
 }

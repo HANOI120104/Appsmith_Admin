@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "673f672562b6fd1870633c84_05d66db3-ea3d-4cbd-aeb6-6d57cc068c26",
+  "id": "Trang chủ_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Trang chủ",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

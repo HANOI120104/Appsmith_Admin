@@ -11,16 +11,16 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"name\": \"Bánh mì\",\n  \"quantity\": 100,\n  \"supportRequestTypeId\": \"1\",\n  \"supportRequestTypeName\": \"Vật tư\",\n  \"unit\": \"Cái\"\n}",
+      "body": "{\n\t\"name\": \"{{inp_newNameSupply.text}}\",\n\t\"quantity\": \"{{inp_newQuantity.text}}\",\n\t\"supportRequestTypeId\": \"{{inp_supportRequestTypeId.text}}\",\n\t\"supportRequestTypeName\": \"{{inp_supportRequestTypeId.text}}\",\n\t\"unit\": \"{{inp_newUnit.text}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       },
       "headers": [
         {
           "key": "Authorization",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NzU0YmUxZGFjNGEwNzgwMzllNTMzNTIiLCJ1c2VybmFtZSI6Imhhbm9pMTIzNDU2IiwianRpIjoiNjc1NGJlMWRhYzRhMDc4MDM5ZTUzMzUyLTE3MzM2ODc5MDY3MzUiLCJrZXkiOiJ0ZXN0MjAyNCIsImlhdCI6MTczMzY4NzkwNiwiZXhwIjoxNzMzODYwNzA2fQ.oCkawsDuIcRP9CDL7Z3N_whFSb-96J1e7HIsm6ZhAx4"
+          "value": "Bearer {{appsmith.store.token}}"
         }
       ],
       "httpMethod": "POST",
@@ -42,7 +42,14 @@
       "name": "Users",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[0].value"
+      },
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
     "name": "postWarehouses",
     "pageId": "Quản lý vật phẩm",

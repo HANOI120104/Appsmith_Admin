@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"username\": {{inp_username.text}},\n\t\"password\": {{inp_password.text}},\n\t\"roles\" : \"user\"\n}",
+      "body": "{\n\t\"username\": \"azoteam42@gmail.com\",\n\t\"password\": \"nguyentu123\",\n\t\"email\": \"azotea2m4@gmail.com\",\n\n\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/api/login",
+      "path": "api/login",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,11 +37,7 @@
       "name": "Users",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": false,
     "name": "postLogin",
     "pageId": "Đăng nhập",

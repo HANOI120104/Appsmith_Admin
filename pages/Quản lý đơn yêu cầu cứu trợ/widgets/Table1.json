@@ -121,20 +121,11 @@
     },
     {
       "key": "primaryColumns.status.buttonColor"
-    },
-    {
-      "key": "primaryColumns.status.borderRadius"
-    },
-    {
-      "key": "primaryColumns.status.boxShadow"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "primaryColumns.status.borderRadius"
     }
   ],
   "dynamicTriggerPathList": [
@@ -648,8 +639,6 @@
       "alias": "status",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius) + '}'))}}",
-      "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
       "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonLabel": "Trạng thái",
       "cellBackground": "",
@@ -673,6 +662,17 @@
       "isSaveVisible": true,
       "isVisible": true,
       "label": "status",
+      "menuItems": {
+        "menuItem0oivqvej1i": {
+          "id": "menuItem0oivqvej1i",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Menu Item",
+          "widgetId": "as18d21c6w"
+        }
+      },
+      "menuItemsSource": "STATIC",
       "notation": "standard",
       "onClick": "{{showModal(Modal1.name);}}",
       "originalId": "status",

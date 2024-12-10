@@ -1,18 +1,6 @@
 {
-  "address": {},
-  "email": "string",
-  "fcmToken": "string",
-  "firstName": "string",
-  "lastName": "string",
-  "nowLocation": {},
-  "password": "string",
-  "phone": "string",
-  "rank": {
-    "id": "string"
-  },
-  "roles": [user],
-  "score": 0,
-  "sex": "Male",
-  "status": "Unavailable",
-  "username": "string"
+	"password": {{inp_password.text}},
+	"roles": {{slt_role.options}},
+	"username": {{inp_username.text}},
+	"email": {{inp_email.text}}
 }
