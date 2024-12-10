@@ -16,10 +16,5 @@ export default {
 
 	},
 
-	// async register() {
-	// const Response = await postRegister.run();
-	// if(Response){
-	// functions.setDefaultTab('Login');
-	// }
-	// }
+
 }

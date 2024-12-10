@@ -11,11 +11,11 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"name\": \"string\",\n\t\"quantity\": 0,\n\t\"supportRequestTypeId\": \"string\",\n\t\"supportRequestTypeName\": \"string\",\n\t\"unit\": \"string\"\n}",
+      "body": "{\n\t\"name\": \"{{frm_updateQuantity.formData.name}}\",\n\t\"quantity\": \"{{frm_updateQuantity.formData.quantity}}\",\n\t\"supportRequestTypeId\": \"{{frm_updateQuantity.formData.supportRequestTypeId}}\",\n\t\"supportRequestTypeName\": \"{{frm_updateQuantity.formData.supportRequestTypeName}}\",\n\t\"unit\": \"{{frm_updateQuantity.formData.unit}}\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       },
       "headers": [
         {
@@ -48,6 +48,9 @@
       },
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "body"
       }
     ],
     "executeOnLoad": false,

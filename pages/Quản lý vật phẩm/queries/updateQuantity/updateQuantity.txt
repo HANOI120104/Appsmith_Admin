@@ -1,7 +1,7 @@
 {
-	"name": "string",
-	"quantity": 0,
-	"supportRequestTypeId": "string",
-	"supportRequestTypeName": "string",
-	"unit": "string"
+	"name": "{{frm_updateQuantity.formData.name}}",
+	"quantity": "{{frm_updateQuantity.formData.quantity}}",
+	"supportRequestTypeId": "{{frm_updateQuantity.formData.supportRequestTypeId}}",
+	"supportRequestTypeName": "{{frm_updateQuantity.formData.supportRequestTypeName}}",
+	"unit": "{{frm_updateQuantity.formData.unit}}"
 }

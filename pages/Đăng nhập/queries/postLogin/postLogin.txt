@@ -1,7 +1,6 @@
 {
 	"username": "azoteam42@gmail.com",
-	"password": "nguyentu123",
-	"email": "azotea2m4@gmail.com",
+	"password": "nguyentu123"
 
 
-}
+}	

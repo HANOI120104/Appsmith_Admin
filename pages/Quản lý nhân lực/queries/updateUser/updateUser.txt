@@ -1,0 +1,17 @@
+{
+    "username": "{{JSONForm1.formData.}}",
+    "password": "nguyentu123",
+    // "confirmPass": "nguyentu123",
+    "firstName": "Nguyễn Đình ",
+    "lastName": "Tư",
+    "sex": "Male",
+    // "roles": ["user"],
+    "phone": "0988597401",
+    "email": "azotea2m4@gmail.com"
+    // "district": ""\
+    // "address": {
+    //     "ward": "",
+    //         "city": "",
+    //     "district": ""
+    // }
+}

@@ -6,15 +6,6 @@
     "pageId": "Quản lý đơn yêu cầu cứu trợ",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": [
-      {
-        "name": "myVar1",
-        "value": "[]"
-      },
-      {
-        "name": "myVar2",
-        "value": "{}"
-      }
-    ]
+    "variables": []
   }
 }

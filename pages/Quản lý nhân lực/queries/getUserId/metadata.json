@@ -21,7 +21,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "api/users/{{postLogin.data.id}}",
+      "path": "api/users/editUser",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -38,9 +38,6 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [
-      {
-        "key": "path"
-      },
       {
         "key": "headers[0].value"
       }

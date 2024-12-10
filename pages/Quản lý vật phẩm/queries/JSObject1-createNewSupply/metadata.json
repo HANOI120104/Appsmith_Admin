@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "673f672562b6fd1870633c84_4e0a34cc-f106-434f-bc16-f3b955355bce",
+  "gitSyncId": "673f672562b6fd1870633c84_013ec219-707e-461b-a61a-c4d167ea248f",
   "id": "Quản lý vật phẩm_JSObject1.createNewSupply",
   "pluginId": "js-plugin",
   "pluginType": "JS",
@@ -10,7 +10,6 @@
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
-    "clientSideExecution": true,
     "collectionId": "Quản lý vật phẩm_JSObject1",
     "confirmBeforeExecute": false,
     "datasource": {

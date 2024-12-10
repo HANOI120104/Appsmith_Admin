@@ -1,11 +1,12 @@
 {
   "animateLoading": true,
-  "autoGenerateForm": true,
+  "autoGenerateForm": false,
   "backgroundColor": "#fff",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 63,
+  "bottomRow": 65,
+  "bottomRowBeforeCollapse": 65,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -181,6 +182,12 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -198,6 +205,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.name.onTextChanged"
     }
   ],
   "fieldLimitExceeded": false,
@@ -206,7 +216,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "rru8w7npdn",
-  "leftColumn": 34,
+  "leftColumn": 45,
   "maxDynamicHeight": 109,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -216,8 +226,8 @@
   "mobileTopRow": 42,
   "needsErrorInfo": false,
   "onSubmit": "{{JSObject1.updateQuantity();}}",
-  "originalBottomRow": 63,
-  "originalTopRow": 10,
+  "originalBottomRow": 65,
+  "originalTopRow": 12,
   "parentColumnSpace": 19.375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -234,6 +244,10 @@
   "schema": {
     "__root_schema__": {
       "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
+      "cellBoxShadow": "none",
       "children": {
         "createdAt": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -259,7 +273,7 @@
           "originalIdentifier": "createdAt",
           "position": 6,
           "shortcuts": false,
-          "sourceData": "2024-12-10T04:55:39.028Z",
+          "sourceData": "2024-12-08T20:36:30.669Z",
           "timePrecision": "minute"
         },
         "id": {
@@ -269,7 +283,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.id))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (tb_warehouse.selectedRow.id))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "id",
@@ -282,7 +296,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "id",
           "position": 0,
-          "sourceData": "6757c9cb0226ece671d0b224"
+          "sourceData": "6756034efc7addb1bcaee7ac"
         },
         "name": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -291,7 +305,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (tb_warehouse.selectedRow.name))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "name",
@@ -302,9 +316,10 @@
           "isVisible": true,
           "label": "Name",
           "labelTextSize": "0.875rem",
+          "onTextChanged": "",
           "originalIdentifier": "name",
           "position": 1,
-          "sourceData": "Sữa"
+          "sourceData": "Hanoi"
         },
         "quantity": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -326,7 +341,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "quantity",
           "position": 2,
-          "sourceData": 100
+          "sourceData": 0
         },
         "supportRequestTypeId": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -348,7 +363,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "supportRequestTypeId",
           "position": 4,
-          "sourceData": "1"
+          "sourceData": "string"
         },
         "supportRequestTypeName": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -370,7 +385,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "supportRequestTypeName",
           "position": 5,
-          "sourceData": "1"
+          "sourceData": "string"
         },
         "unit": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -392,7 +407,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "unit",
           "position": 3,
-          "sourceData": "Thùng"
+          "sourceData": "string"
         },
         "updatedAt": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(frm_updateQuantity.sourceData, frm_updateQuantity.formData, frm_updateQuantity.fieldState)}}",
@@ -418,7 +433,7 @@
           "originalIdentifier": "updatedAt",
           "position": 7,
           "shortcuts": false,
-          "sourceData": "2024-12-10T04:55:39.028Z",
+          "sourceData": "2024-12-10T06:04:17.881Z",
           "timePrecision": "minute"
         }
       },
@@ -434,14 +449,23 @@
       "labelTextSize": "0.875rem",
       "originalIdentifier": "__root_schema__",
       "position": -1,
-      "sourceData": {}
+      "sourceData": {
+        "createdAt": "2024-12-08T20:36:30.669Z",
+        "id": "6756034efc7addb1bcaee7ac",
+        "name": "Hanoi",
+        "quantity": 0,
+        "supportRequestTypeId": "string",
+        "supportRequestTypeName": "string",
+        "unit": "string",
+        "updatedAt": "2024-12-10T06:04:17.881Z"
+      }
     }
   },
   "scrollContents": true,
   "shouldScrollContents": true,
   "showReset": true,
   "sourceData": "{{tb_warehouse.selectedRow}}",
-  "submitButtonLabel": "Submit",
+  "submitButtonLabel": "Cập nhật",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
@@ -449,7 +473,8 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Cập nhật dữ liệu",
-  "topRow": 10,
+  "topRow": 12,
+  "topRowBeforeCollapse": 12,
   "type": "JSON_FORM_WIDGET",
   "useSourceData": false,
   "version": 1,
